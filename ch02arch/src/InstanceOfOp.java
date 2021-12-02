@@ -4,14 +4,14 @@ public class InstanceOfOp {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String name ="±è¿¹¸²";
-		System.out.println("nameÀÇ °ª :" + name);
+		String name ="ê¹€íƒœí›ˆ";
+		System.out.println("nameì˜ ê°’ :" + name);
 		
-		//nameÀÌ¶ó´Â º¯¼ö°¡ StringÀÎÁö ¾Ë°í ½Í´Ù.
-		System.out.println("nameÀÌ StringdÀÌ ¸Â´Â°¡ :" + (name instanceof String));
+		//nameì´ë¼ëŠ” ë³€ìˆ˜ê°€ Stringì¸ì§€ ì•Œê³  ì‹¶ë‹¤.
+		System.out.println("nameì´ Stringì´ ë§ëŠ”ê°€ :" + (name instanceof String));
 		
-		//°Ô½ÃÆÇ - no, title, content, writer, writeDate, hit
-		//°øÁö»çÇ× - no, title, content, startDate, endDate, writeDate
+		//ê²Œì‹œíŒ - no, title, content, writer, writeDate, hit
+		//ê³µì§€ì‚¬í•­ - no, title, content, startDate, endDate, writeDate
 		
 	}
 
