@@ -4,32 +4,32 @@ public class StringExam {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String strVar1 = "±è¿¹¸²";
-		String strVar2 = "±è¿¹¸²";
+		String strVar1 = "ê¹€íƒœí›ˆ";
+		String strVar2 = "ê¹€íƒœí›ˆ";
 		
 		System.out.println(strVar1 + "-1/" + strVar2 + "-2");
 		System.out.println(strVar1 == strVar2);
 		
-		String strVar3 = new String("±è¿¹¸²");
-		String strVar4 = new String("±è¿¹¸²");
+		String strVar3 = new String("ê¹€íƒœí›ˆ");
+		String strVar4 = new String("ê¹€íƒœí›ˆ");
 		
 		System.out.println(strVar3 + "-new 3/" + strVar4 + "-new 4");
-		System.out.println(strVar3 == strVar4); //ÁÖ¼Ò°¡ ´Ş¶ó¼­ false °¡ ³ª¿È
+		System.out.println(strVar3 == strVar4); //ì£¼ì†Œê°€ ë‹¬ë¼ì„œ false ê°€ ë‚˜ì˜´
 		
 		System.out.println(strVar1 + "-1/" + strVar3 + "-new 3");
-		System.out.println(strVar1 == strVar3); //ÁÖ¼Ò°¡ ´Ş¶ó¼­ false °¡ ³ª¿È
+		System.out.println(strVar1 == strVar3); //ì£¼ì†Œê°€ ë‹¬ë¼ì„œ false ê°€ ë‚˜ì˜´
 				
-		//¹«Á¶°Ç ¹®ÀÚ¿­ÀÌ³ª Å¬·¡½ºÀÇ °ªÀ¸·Î ºñ±³ÇÒ ¶§´Â equals()¸¦ »ç¿ëÇØ¾ßÇÑ´Ù.
-		//-ÀÌ¶§ ÇÁ·Î±×·¥Àº ÀÛ¼ºµÇ¾î ÀÖ¾î¾ß ÇÑ´Ù.
+		//ë¬´ì¡°ê±´ ë¬¸ìì—´ì´ë‚˜ í´ë˜ìŠ¤ì˜ ê°’ìœ¼ë¡œ ë¹„êµí•  ë•ŒëŠ” equals()ë¥¼ ì‚¬ìš©í•´ì•¼í•œë‹¤.
+		//-ì´ë•Œ í”„ë¡œê·¸ë¨ì€ ì‘ì„±ë˜ì–´ ìˆì–´ì•¼ í•œë‹¤.
 		
-		//¹®ÀÚ¿­ StringÀÇ ºñ±³´Â ==·Î ºñ±³ÇÏ¸é ÁÖ¼Ò¸¦ ºñ±³ÇÏ°Ô µÇ¹Ç·Î equals()·Î ºñ±³ÇØ¾ßÇÑ´Ù.
-		System.out.println(strVar1 + "-1/" + strVar3 + "-new 3 :equals ºñ±³");
-		System.out.println(strVar1.equals(strVar3)); //equals()´Â °ªÀ¸·Î ºñ±³
+		//ë¬¸ìì—´ Stringì˜ ë¹„êµëŠ” ==ë¡œ ë¹„êµí•˜ë©´ ì£¼ì†Œë¥¼ ë¹„êµí•˜ê²Œ ë˜ë¯€ë¡œ equals()ë¡œ ë¹„êµí•´ì•¼í•œë‹¤.
+		System.out.println(strVar1 + "-1/" + strVar3 + "-new 3 :equals ë¹„êµ");
+		System.out.println(strVar1.equals(strVar3)); //equals()ëŠ” ê°’ìœ¼ë¡œ ë¹„êµ
 		
-		System.out.println(strVar3 + "-new 3/" + strVar4 + "-new 4 :equals ºñ±³");
+		System.out.println(strVar3 + "-new 3/" + strVar4 + "-new 4 :equals ë¹„êµ");
 		System.out.println(strVar3.equals(strVar4));
 		
-		System.out.println(strVar1 + "-1/" + strVar2 + "-2 :equals ºñ±³");
+		System.out.println(strVar1 + "-1/" + strVar2 + "-2 :equals ë¹„êµ");
 		System.out.println(strVar1.equals(strVar2));
 	}
 
