@@ -5,35 +5,35 @@ public class MultiValueOneProcess {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
-		//¿ùÀÇ µ¥ÀÌÅÍ ¹Ş±â
-		System.out.println("¿ùÀ» ÀÔ·ÂÇÏ¼¼¿ä");
+		//ì›”ì˜ ë°ì´í„° ë°›ê¸°
+		System.out.println("ì›”ì„ ì…ë ¥í•˜ì„¸ìš”");
 		String data = scanner.nextLine();
 		int month = Integer.parseInt(data);
 		
-		//3,4,5:º½, 6,7,8:¿©¸§, 9,10,11:°¡À», ±×¿Ü:ÀÔ·Â¿À·ù
+		//3,4,5:ë´„, 6,7,8:ì—¬ë¦„, 9,10,11:ê°€ì„, ê·¸ì™¸:ì…ë ¥ì˜¤ë¥˜
 		switch (month) {
 		case 3:
 		case 4:
 		case 5:
-			System.out.println("°èÀıÀº º½ÀÔ´Ï´Ù.");
+			System.out.println("ê³„ì ˆì€ ë´„ì…ë‹ˆë‹¤.");
 			break;
 		case 6:
 		case 7:
 		case 8:
-			System.out.println("°èÀıÀº ¿©¸§ÀÔ´Ï´Ù.");
+			System.out.println("ê³„ì ˆì€ ì—¬ë¦„ì…ë‹ˆë‹¤.");
 			break;
 		case 9:
 		case 10:
 		case 11:
-			System.out.println("°èÀıÀº °Ü¿ïÀÔ´Ï´Ù.");
+			System.out.println("ê³„ì ˆì€ ê°€ì„ì…ë‹ˆë‹¤.");
 			break;
 		case 12:
 		case 1:
 		case 2:
-			System.out.println("°èÀıÀº ¿©¸§ÀÔ´Ï´Ù.");
+			System.out.println("ê³„ì ˆì€ ê²¨ìš¸ì…ë‹ˆë‹¤.");
 			break;
 		default :
-			System.out.println("Àß¸øµÈ µ¥ÀÌÅÍ¸¦ ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù.");
+			System.out.println("ì˜ëª»ëœ ë°ì´í„°ë¥¼ ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤.");
 		}
 		scanner.close();   
 	}
